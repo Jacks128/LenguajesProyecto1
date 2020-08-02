@@ -1,0 +1,29 @@
+digraph hierarchy{
+size=4 
+node[shape=record]
+"Corto #1"[shape=Mdiamond label= "Corto #1" ]
+"America del Norte"[label="{America del Norte|25}" style= filled fillcolor=blue]
+"Canada"[label="{Canada|75}" style=filled fillcolor=orange]
+"Corto #1"[shape=Mdiamond label= "Corto #1" ]
+"America del Norte"[label="{America del Norte|35}" style= filled fillcolor=green]
+"Mexico"[label="{Mexico|35}" style=filled fillcolor=green]
+"Corto #1"[shape=Mdiamond label= "Corto #1" ]
+"America del Norte"[label="{America del Norte|73}" style= filled fillcolor=orange]
+"Estados unidos"[label="{Estados unidos|73}" style=filled fillcolor=orange]
+"Corto #1"[shape=Mdiamond label= "Corto #1" ]
+"America del Sur"[label="{America del Sur|49}" style= filled fillcolor=yellow]
+"Cabo verde"[label="{Cabo verde|99}" style=filled fillcolor=red]
+"Corto #1"[shape=Mdiamond label= "Corto #1" ]
+"Oceania"[label="{Oceania|37}" style= filled fillcolor=green]
+"Indonesia"[label="{Indonesia|74}" style=filled fillcolor=orange]
+"Corto #1" -> "America del Norte"
+"America del Norte" -> "Canada"
+"Corto #1" -> "America del Norte"
+"America del Norte" -> "Mexico"
+"Corto #1" -> "America del Norte"
+"America del Norte" -> "Estados unidos"
+"Corto #1" -> "America del Sur"
+"America del Sur" -> "Cabo verde"
+"Corto #1" -> "Oceania"
+"Oceania" -> "Indonesia"
+}
